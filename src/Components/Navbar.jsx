@@ -8,7 +8,7 @@ const Navbar = ({ Roti }) => {
         <div>
           <div>
             <div className="container-logo-out">
-              <div className="d-block container-logo"></div>
+              <div className="container-logo"></div>
               <img
                 src="../src/assets/foodbank-yk-logo-word.svg"
                 className="logo-navbar"
