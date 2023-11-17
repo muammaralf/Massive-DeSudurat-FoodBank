@@ -1,0 +1,84 @@
+.container-navbar {
+  height: 100px;
+  background-color: #f8f8f8;
+}
+
+.container-logo-out {
+  display: flex;
+  float: inline-start;
+  width: 350px;
+}
+
+.container-logo {
+  float: inline-start;
+  height: 0;
+  width: 350px;
+  border-top: 100px solid #feb200;
+  border-right: 40px solid transparent;
+}
+
+.logo-navbar {
+  margin-top: 25px;
+  margin-left: -270px;
+  float: inline-start;
+  height: 50px;
+}
+
+.navbar-up {
+  height: 50px;
+  width: 100%;
+  background-color: #1b2426;
+  align-items: center;
+}
+
+.container-kontak {
+  margin-right: 110px;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.email-icon {
+  margin-right: 8px;
+}
+
+.telpon-icon {
+  margin: 0 8px;
+}
+
+.span-for-kontak {
+  color: #f8f8f8;
+}
+
+.navbar-bottom {
+  font-family: "Comic Sans MS", cursive;
+  height: 50px;
+  font-weight: bold;
+  color: #6e6d6d;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 110px;
+  gap: 4rem;
+}
+
+.footer-top {
+  height: 250px;
+  background-color: #1b2426;
+  color: #f8f8f8;
+}
+
+.footer-bottom {
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  display: flex;
+  height: 40px;
+  background-color: #feb200;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: 1500px;
+}
