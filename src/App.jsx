@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/footer";
+import Dashboard from "./pages/Dashboard";
+import Informasi from "./pages/Informasi";
 import "./index.css";
 
 function App() {
@@ -9,7 +12,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="content"></div>
+
+      <Router>
+        <Routes>
+          <Route path="/" element={<Dashboard />}></Route>
+          <Route path="/informasi" element={<Informasi />}></Route>
+        </Routes>
+      </Router>
+
       <Footer />
     </>
   );
