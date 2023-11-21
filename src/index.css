@@ -1,6 +1,10 @@
 * {
   font-size: 18px;
+  font-family: "Comic Sans MS", cursive;
+  margin: 0;
 }
+
+/* Navbar */
 
 .container-navbar {
   height: 100px;
@@ -68,10 +72,68 @@
   gap: 3rem;
 }
 
+/* Navbar End */
+
+/* Footer */
+
 .footer-top {
-  height: 250px;
   background-color: #1b2426;
+  color: #feb200;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+.container-text-top {
+  width: 92%;
+  display: flex;
+}
+
+.container-logo-footer-top {
+  display: flex;
+  justify-content: center;
+}
+
+/* .container-link-kilat {
+  display: flex;
+  justify-content: center;
+} */
+
+.container-text1-footer-top {
+  text-align: justify;
   color: #f8f8f8;
+}
+
+.logo-footer {
+  height: 72px;
+  margin-bottom: 1rem;
+  float: inherit;
+}
+
+.container-link-kilat-top {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+}
+
+.container-link-kilat-top p {
+  font-size: xx-large;
+}
+
+.container-link-kilat-bottom {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+
+.container-logo-footer,
+.container-link-kilat,
+.container-alamat,
+.container-link-sosmed {
+  width: 23%;
+  margin: 1rem 0.4rem;
 }
 
 .footer-bottom {
@@ -84,6 +146,14 @@
   align-items: center;
 }
 
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
 .content {
   height: 1500px;
 }
+
+/* Footer End */
