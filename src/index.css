@@ -216,4 +216,143 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 3rem;
+}
+
+/* Button */
+.button-all {
+  padding: 6px 12px;
+  transform: skew(-20deg);
+  border-radius: 8px;
+  background-color: #1b2426;
+  color: #f8f8f8;
+}
+
+.container-button-next {
+  background-color: #1b2426;
+  color: #f8f8f8;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.container-button-next .right-panah {
+  margin-right: 1.5rem;
+  background-color: #feb200;
+}
+
+.container-button-next-inner {
+  color: #f8f8f8;
+}
+
+.container-button-next-inner svg {
+  float: inline-start;
+}
+
+.container-button-next-inner span {
+  float: inline-start;
+  margin-right: -80px;
+  color: #f8f8f8;
+}
+
+/* Informasi.css */
+.container-bg {
+  width: 100%;
+}
+
+.container-bg1-informasi p {
+  margin-right: 10%;
+  margin-left: 5%;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: justify;
+}
+.container-bg1 {
+  width: 300px;
+  height: 210px;
+  margin-left: 10%;
+}
+.container-bg1-informasi {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.container-bg1-informasi .container-bg1 {
+  margin-right: 5; /* Adjust the margin as needed */
+}
+
+.container-bg2-informasi p {
+  margin-right: 10%;
+  margin-left: 5%;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: justify;
+}
+.container-bg2 {
+  width: 300px;
+  height: 210px;
+  margin-left: 10%;
+}
+.container-bg2-informasi {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.container-bg2-informasi .container-bg2 {
+  margin-right: 5;
+}
+.button-informasi .container-bg1-informasi,
+.container-bg2-informasi {
+  position: relative;
+}
+
+.ButtonContainer {
+  margin-top: 220px;
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+
+.container-bg-informasi {
+  position: relative;
+  width: 100%;
+}
+
+.container-bg-informasi {
+  position: relative;
+}
+
+/*Text dalam background */
+
+.image-with-text {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  background: white;
+  opacity: 85%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.text-overlay h1 {
+  margin: 0;
+  font-size: 2em;
+}
+.text-overlay p.location-text {
+  font-size: 40px;
 }
