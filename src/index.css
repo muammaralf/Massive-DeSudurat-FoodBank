@@ -78,7 +78,7 @@
 
 .footer-top {
   background-color: #1b2426;
-  color: #feb200;
+  color: #f8f8f8;
   display: flex;
   justify-content: center;
   font-size: small;
@@ -111,7 +111,6 @@
 }
 
 .container-link-kilat-top {
-  font-size: large;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,10 +119,10 @@
 
 .container-link-kilat-top p {
   font-size: xx-large;
+  color: #feb200;
 }
 
 .container-link-kilat-bottom {
-  font-size: large;
   display: flex;
   justify-content: center;
 }
@@ -131,6 +130,35 @@
 .container-link-kilat-bottom p {
   margin-left: 10px;
   color: #f8f8f8;
+}
+
+.container-alamat-top {
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-alamat-top p {
+  font-size: xx-large;
+  color: #feb200;
+}
+
+.container-alamat-bottom p {
+  margin-left: 10px;
+}
+
+.container-alamat-bottom ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.container-link-sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .container-logo-footer,
@@ -186,5 +214,6 @@ li {
 
 .coba.aja.ini.deh {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
