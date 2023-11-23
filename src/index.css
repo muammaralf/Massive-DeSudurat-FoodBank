@@ -237,11 +237,11 @@ li {
   cursor: pointer;
   display: flex;
   align-items: center;
-  width: 135px;
+  width: 150px;
 }
 
 .button-next .panah-kanan {
-  margin-right: 0.8rem;
+  margin-right: 1.1rem;
   margin-left: auto;
 }
 
