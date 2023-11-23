@@ -10,7 +10,7 @@ const Navbar = ({ Roti }) => {
             <div className="container-logo-out">
               <div className="container-logo"></div>
               <img
-                src="../src/assets/foodbank-yk-logo-word.svg"
+                src="../src/assets/logo-fby-word.svg"
                 className="logo-navbar"
               />
             </div>
