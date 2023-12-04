@@ -1,0 +1,35 @@
+.container-testimoni {
+  width: 330px;
+  height: 370px;
+  border-radius: 40px;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.container-testimoni p {
+  margin: 2rem 1.3rem;
+  margin-bottom: 0.6rem;
+  text-align: justify;
+}
+
+.container-profile {
+  height: 80px;
+  margin: 0 1.3rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: start;
+}
+
+.container-profile img {
+  margin: 0;
+  padding: 0;
+  height: 65px;
+  width: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.container-profile span {
+  margin-left: 0.8rem;
+}
