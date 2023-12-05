@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Components/Button";
 import "./index.css";
 
 const RelawanAdmin = () => {
@@ -55,6 +56,9 @@ const RelawanAdmin = () => {
               />
             </svg>
           </div>
+          <div className="tabel-span-container">
+            <span className="tabel-span">Data Relawan</span>
+          </div>
           <div className="tabel">
             <table className="table" border={1}>
               <thead>
@@ -98,6 +102,10 @@ const RelawanAdmin = () => {
                 <th>Depok, Sleman</th>
               </tr>
             </table>
+          </div>
+          <div className="button-tabel">
+            <Button TextButton={"Unduh"} />
+            <Button TextButton={"Detail"} />
           </div>
         </div>
       </section>

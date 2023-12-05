@@ -59,6 +59,17 @@
   justify-content: center;
 }
 
+.tabel-span-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tabel-span {
+  display: flex;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 .tabel table {
   border: 2px;
 }
@@ -90,4 +101,11 @@
   margin-bottom: 1rem;
   vertical-align: top;
   border-color: var(--bs-table-border-color);
+}
+
+.button-tabel {
+  margin: 1rem 8rem;
+  display: flex;
+  justify-content: end;
+  gap: 3rem;
 }
